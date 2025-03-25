@@ -1,0 +1,17 @@
+name: CI Test Log
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+      - name: Log output
+        run: |
+          echo "Hello from AuditForge!"
+          echo "This is a test for log scanning."
+          echo "Unauthorized access attempt detected"
