@@ -12,8 +12,8 @@ jobs:
         uses: actions/checkout@v3
       - name: Simulate CVE log output
         run: |
-          echo "⚠️ Potential vulnerability detected: CVE-2020-36632"
-          echo "Another one: CVE-2025-29512"
+          echo "⚠️ Potential vulnerability detected: CVE-1999-0322"
+          echo "Another one: CVE-1999-1425"
       - name: Log output
         run: |
           echo "Hello from AuditForge!"
