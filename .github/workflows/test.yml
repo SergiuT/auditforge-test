@@ -15,6 +15,6 @@ jobs:
           echo "⚠️ Potential vulnerability detected: CVE-2007-2119"
       - name: Log output
         run: |
-          echo "Hello from AuditForge!"
+          echo "Hello from AuditForge! "
           echo "This is a test for log scanning."
           echo "Unauthorized access attempt detected"
