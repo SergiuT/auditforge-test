@@ -13,7 +13,7 @@ jobs:
       - name: Simulate CVE log output
         run: |
           echo "⚠️ Potential vulnerability detected: CVE-2007-2119"
-          echo "Another one: CVE-2007-1681"
+          # echo "Another one: CVE-2007-1681"
       - name: Log output
         run: |
           echo "Hello from AuditForge!"
