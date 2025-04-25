@@ -12,7 +12,7 @@ jobs:
         uses: actions/checkout@v3
       - name: Simulate CVE log output
         run: |
-          echo "⚠️ Potential vulnerability detected: CVE-2007-2119"
+          echo "⚠️ Potential vulnerability detected: CVE-2007-2119 "
       - name: Log output
         run: |
           echo "Hello from AuditForge! "
